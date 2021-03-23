@@ -7,7 +7,7 @@ const App = () => {
       <ChatEngine
           height='100vh'
           projectID='90f42a53-f2ea-452d-b29d-1b9963b0cd6c'
-          userName='Admin'
+          userName='zak'
           userSecret='123123'
           renderChatFeed={ (chatAppProps) => <ChatFeed {...chatAppProps}/> }
       />
