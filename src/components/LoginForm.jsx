@@ -29,6 +29,11 @@ const LoginForm = () => {
         <div className='wrapper'>
             <div className='form'>
                 <h1 className='title'>Chat Application</h1>
+                <div className='creds-block'>
+                    <div>Use the following creds for Demo:</div>
+                    <div>Username: demo</div>
+                    <div>Password: 123123</div>
+                </div>
                 <form onSubmit={handleSubmit}>
                     <input
                         value={userName}
