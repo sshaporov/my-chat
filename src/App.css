@@ -288,3 +288,7 @@
     opacity: 1;
     right: 0;
 }
+.error {
+    text-align: center;
+    color: red;
+}
